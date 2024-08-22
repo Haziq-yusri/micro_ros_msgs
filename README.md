@@ -1,8 +1,7 @@
-# Kaia.ai platform ROS2 messages
+# Micro-ROS platform ROS2 messages
 
-Abbreviated telemetry messages for [Kaia.ai](https://kaia.ai) home robot software platform.
+Abbreviated telemetry messages for robotic training using ESP32 microcontroller.
 
-Please sign up for an early launch invite [here](https://kaia.ai).
 
 ## TODO
 - enable discarding broken scans, when micro-ROS packets get dropped
@@ -12,7 +11,7 @@ Please sign up for an early launch invite [here](https://kaia.ai).
 
 ### v0.2.0
 - added WifiState message for ROS2
-- added KaiaTelemetry2 message
+- added Telemetry2 message
   - added JointPosVel message
   - adds wifi_rssi_dbm, battery_mv, distance_mm[], bumper[], cliff[], touch[]
   - limits array lengths
